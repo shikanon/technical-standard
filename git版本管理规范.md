@@ -15,7 +15,7 @@ git commit 提交样式标准
 <结尾>
 ```
 
-**<类型>**
+**`<类型>`**
 
 用于说明 commit 的类别，只允许使用下面7个标识。
 - feat：新功能（feature）
@@ -25,18 +25,33 @@ git commit 提交样式标准
 - refactor：重构（即不是新增功能，也不是修改bug的代码变动）
 - test：增加测试
 - chore：构建过程或辅助工具的变动
- 
-**<题目>**
+
+
+**`<题目>`**
 
 commit 目的的简短描述，不超过50个字符
  
-**<内容>**
+**`<内容>`**
 
 对本次 commit 的详细描述，可以分成多行，可详细说明代码变动的动机
  
-**<结尾>**
+**`<结尾>`**
 
 如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue：
 ```
 Closes #234
+```
+
+## Example
+
+```
+feat(compiler): comments for if-else conditions #10286
+
+In order to fix these 2 issues, I need to have access to the HTML comments before a v-else block
+vue-styleguidist/vue-styleguidist#430
+vue-styleguidist/vue-styleguidist#322
+To give you an example, here is a format that does not work with the current parser.
+Since we cannot have the comments as normal nodes, I thought we could have the missing comment beside the ifCondition.
+
+closes #10288
 ```
