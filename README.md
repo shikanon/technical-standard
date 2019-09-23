@@ -33,5 +33,5 @@ https://docs.gitlab.com/ee/ci/yaml/
 
 ## 代码规范参考
 
-[Python代码编写规范](./代码规范/Python代码编写规范.md)
-[Python代码编写规范](./代码规范/Python代码编写规范.md)
+- [Python代码编写规范](./代码规范/Python代码编写规范.md)
+- [前端代码编写规范](./代码规范/JavaScript代码编写规范.md)
