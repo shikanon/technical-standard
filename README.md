@@ -35,3 +35,7 @@ https://docs.gitlab.com/ee/ci/yaml/
 
 - [Python代码编写规范](./代码规范/Python代码编写规范.md)
 - [前端代码编写规范](./代码规范/JavaScript代码编写规范.md)
+
+## 系统设计规范
+
+- [日志系统设计规范](./系统设计规范/日志系统设计规范.md)
